@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fitness
+  annotations:
+    github.com/project-slug: arcgang/fitness
+spec:
+  type: react
+  lifecycle: experimental
+  owner: arcgang
+  system: test1
